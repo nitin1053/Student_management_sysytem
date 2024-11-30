@@ -11,7 +11,7 @@ def student_helper(student) -> dict:
         "id": str(student["_id"]),
         "name": student["name"],
         "age": student["age"],
-        "class": student["class_name"],
+        "class": student["class"],
         "subjects": student["subjects"],
     }
 
